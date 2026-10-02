@@ -1,0 +1,162 @@
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    padding: 30px;
+}
+
+/* Main Heading */
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+/* Contact Form */
+
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Buttons */
+
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Contact Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+    padding: 14px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* Edit Button */
+
+.edit-btn {
+    background-color: #16a34a;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Delete Button */
+
+.delete-btn {
+    background-color: #dc2626;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.edit-btn:hover {
+    background-color: #15803d;
+}
+
+.delete-btn:hover {
+    background-color: #b91c1c;
+}
+
+/* Search Form */
+
+.search-form {
+    text-align: center;
+    margin: 20px;
+}
+
+.search-form input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+.total-box {
+    background-color: white;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.total-box h3 {
+    color: #2563eb;
+    margin: 0;
+}
